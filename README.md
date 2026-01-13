@@ -5,13 +5,18 @@ This project implements a Monte Carlo exposure simulation for a forward-starting
 
 The workflow consists of:
 - Constructing a flat yield curve and calibrating a Hull–White short-rate process
-- Simulating short-rate paths via Gaussian Monte Carlo
-- Valuing a payer interest rate swap dynamically along each simulated path
+- Simulating short-rate paths via Gaussian Monte Carlo:
+  
+![short rate simulation](short_rate_simulation.png)
+  
+- Valuing a payer interest rate swap dynamically along each simulated path:
 - Computing dirty mark-to-market values between coupon dates (including accrued interest)
 - Aggregating pathwise results into standard counterparty credit risk exposure metrics:
     - Expected Future Value (EFV)
     - Expected Exposure (EE)
     - Negative Expected Exposure (NEE)
+ 
+![simulated exposure](Simulated_exposure.png)
 
 - Comparing stochastic exposure profiles against the deterministic forward-start swap valuation implied by today’s curve
 The project demonstrates a model-consistent exposure framework suitable for applications such as:
