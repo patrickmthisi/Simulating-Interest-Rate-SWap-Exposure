@@ -1,2 +1,2 @@
-# Simulating-Interest-Rate-SWap-Exposure
-Simulating Interest Rate SWap Exposure
+# Simulating-Interest-Rate-Swap-Exposure
+Simulating Interest Rate Swap Exposure
