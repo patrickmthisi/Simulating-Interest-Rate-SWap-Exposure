@@ -6,9 +6,7 @@ This project implements a Monte Carlo exposure simulation for a forward-starting
 The workflow consists of:
 - Constructing a flat yield curve and calibrating a Hull–White short-rate process. The model is described as:
 
-\begin{equation} 
-    dr_t = \Big(\theta(t) - a r_t\Big) dt + \sigma dW_t,
-\end{equation}
+$$dr_t = \Big(\theta(t) - a r_t\Big) dt + \sigma dW_t$$,
 where $a$ is the mean-reversion constant, $\sigma$ is the volatility. The parameter $\theta(t)$ is chosen to fit the input term structure of interest rates. 
 
 - Simulating short-rate paths via Gaussian Monte Carlo:
