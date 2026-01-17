@@ -1,3 +1,6 @@
+- $\textbf{Author}$: Patrick Mthisi
+- $\textbf{Contact details}$: patrickmthisi@hotmail.com
+
 # Simulating-Interest-Rate-Swap-Exposure
 # Objectives:
 
